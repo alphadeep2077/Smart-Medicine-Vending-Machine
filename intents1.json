@@ -1,0 +1,254 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!, Hi there, how can I help?"],
+         "context_set": [""]
+        },
+        
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me bot.", "I'm bot!", "I'm bot."],
+         "context_set": [""]
+        },
+        
+        {"tag": "problem_solving",
+        "patterns": ["i need help","help me","tell me","i have some problem","problem","can you help me?"],
+        "responses": ["yes i can help you","tell me what can i do for you","what do you want me to do","how can i help you","what kind of help do you need","tell me"],
+        "context_set": [""]
+        },
+        {
+        	"tag":"Fever ",
+        	"patterns":["i have Sweating ","Chills and Shivering"," i have  severe headache","i have Loss of appetite","Irritablity","Dehydration" ],
+        	"responses":["you might be suffering from Fever"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"emotional problems",
+        	"patterns":["anxiety", "depression fatigue", "feeling tense", "flashbacks and nightmares", "disinterest in regular activities", "suicidal thoughts", "hallucinations", "delusions"],
+        	"responses":["you might be suffering from emotional problems"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"headache problems",
+        	"patterns":[" i'm getting dizziness", "nausea", "inability to walk"],
+        	"responses":["you might be suffering from headache problems"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"appendicitis",
+        	"patterns":["feeling sick (nausea)","being sick","loss of appetite","diarrhoea","a high temperature (fever) and a flushed face"],
+        	"responses":["you might be suffering from appendicitis"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"Stomach ache",
+        	"patterns":["Changes in bowel habits ","Unexpected Weight loss","Bloating","Chest pain","Dark stools"],
+        	"responses":["you might be suffering from stomach ache"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"allergy",
+        	"patterns":[" sneezing and an itchy, runny or blocked nose","itchy, red, watering eyes","wheezing, chest tightness, shortness of breath and a cough","a raised, itchy, red rash (hives)","swollen lips, tongue, eyes or face","tummy pain, feeling sick, vomiting or diarrhoea","dry, red and cracked skin"],
+        	"responses":["you might be suffering from allergy"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"alcohol-related liver disease",
+        	"patterns":[" abdominal pain","loss of appetite","fatigue","feeling sick","diarrhoea","feeling generally unwell","yellowing of the skin and whites of the eyes (jaundice)","swelling in the legs, ankles and feet, due to a build-up of fluid","swelling in your abdomen, due to a build-up of fluid known as ascites","a high temperature (fever) and shivering attacks","very itchy skin","hair loss","unusually curved fingertips and nails (clubbed fingers)","blotchy red palms","significant weight loss","weakness and muscle wasting","confusion and memory problems, trouble sleeping (insomnia) and changes in your personality due to a build-up of toxins in the brain","vomiting blood and black, tarry stools due to internal bleeding","a tendency to bleed and bruise more easily, such as frequent nosebleeds and bleeding gums","increased sensitivity to alcohol and drugs"],
+        	"responses":["you might be suffering from alcohol-related liver disease"],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"Muscle ache",
+        	"patterns":["Stiffness and weakness in the affected area","fever","a rash","a bite mark","dizziness","sign of infection, such as rendness and swelling"],
+        	"responses":["you might be suffering from muscle ache"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"dehydration",
+        	"patterns":["izziness", "light headedness","headache","tiredness","dry mouth", "dry lips","dry eyes","passing small amounts of urine infrequently"],
+        	"responses":["you might be suffering from dehydration"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"diabetic retinopathy",
+        	"patterns":["gradually worsening vision","sudden vision loss","shapes floating in field of vision (floaters)","blurred vision"," patchy vision","eye pain or redness"],
+        	"responses":["you might be suffering from diabetic retinopathy"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"type 2 diabetes",
+        	"patterns":["urinating more often than usual, particularly at night","feeling very thirsty","feeling very tired","unexplained weight loss","itchiness around the genital area","cuts or wounds that heal slowly","blurred vision"],
+        	"responses":["you might be suffering from type 2 diabetes"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"type 1 diabetes",
+        	"patterns":["urinating more frequently than usual","urinating particularly at night","feeling very tired","weight loss","loss of muscle bulk","itchiness around the genital area","regular bouts of thrush","blurred vision","the lens of eye changing shape"],
+        	"responses":["you might be suffering from type 1 diabetes"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"Motion Sickness",
+        	"patterns":["nausea and vomitting","too cold sweating","pallor","headache","drownsiness","loss of appetite","increased salivation"],
+        	"responses":["you might be suffering from Motion sicknesss"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"Gastritis",
+        	"patterns":["loss of appetite","pain in the upper abdomen just under the ribs","nausea and vomitting"],
+        	"responses":["you might be suffering from Gastritis"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"diarrhoea",
+        	"patterns":["stomach cramps","nausea","vomiting","headache","loss of appetite"],
+        	"responses":["you might be suffering from diarrhoea"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"Ear infection",
+        	"patterns":["ear pain","fullness in the ear","cough","not able to hear"],
+        	"responses":["you might be suffering from ear infection"],
+        	"context_set":[""]
+
+        },
+	
+	
+	{
+        	"tag":"eye infection",
+        	"patterns":["itchy eyes","pain or discomfort in eye","Feeling that something's on or in your eye","Eye hurts when it's bright","Burning in your eyes"],
+        	"responses":["you might be suffering from eye infection"],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"glandular fever",
+        	"patterns":["a high temperature fever","sore throat","swollen glands","fatigue","extreme tiredness"],
+        	"responses":["you might be suffering from glandular fever"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"hay fever",
+        	"patterns":["frequent sneezing","runny nose"," blocked nose","itchy, red or watery eyes","itchy throat, mouth, nose and ears" , "cough"],
+        	"responses":["you might be suffering from hay fever"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"fibromyalgia",
+        	"patterns":["widespread pain"],
+        	"responses":["you might be suffering from fibromyalgia"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"nose infection ",
+        	"patterns":["Bad breath or loss of smell","Cough, often worse at night","Nasal stuffiness and discharge","Pressure-like pain, pain behind the eyes, toothache, or tenderness of the face"],
+        	"responses":["you might be suffering from nose infection "],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"skin infection",
+        	"patterns":["Skin redness","Pain, tenderness, or warmth when the affected skin is touched","Swelling of the affected area"],
+        	"responses":["you might be suffering from skin infection"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"common cold",
+        	"patterns":["a sore throat","a blocked or runny nose","sneezing","a cough","a hoarse voice","generally feeling unwell"],
+        	"responses":["you might be suffering from common cold"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"chickenpox",
+        	"patterns":["feeling sick","a high temperature (fever) of 38C (100.4F) or over","aching, painful muscles","headache","generally feeling unwell","loss of appetite"],
+        	"responses":["you might be suffering from chickenpox"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"stroke",
+        	"patterns":[" facial drooping", "arm weakness", "difficulty with speech", "rapidly developing dizziness or balance", "sudden numbness or weakness", "loss of vision", "confusion", " severe headache"],
+        	"responses":["you might be suffering from stroke"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"teeth ache",
+        	"patterns":["swelling around your tooth and inside your mouth","swelling of your jaw and face","pain when chewing","bleeding from your tooth or gums","sensitivity to hot, cold or sweet food"],
+        	"responses":["you might be suffering from teeth ache"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag": "lung problems",
+        	"patterns":["  coughing up blood", "shortness of breath", "difficulty breathing", "chronic cough", "repeated bouts of bronchitis or pneumonia", "wheezing."],
+        	"responses":["you might be suffering from lung problems"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"bladder problems",
+        	"patterns":["difficult or painful urination", "frequent urination", "loss of bladder control", "blood in urine", "waking frequently at night to urinate",  "wetting the bed at night", "leaking urine."],
+        	"responses":["you might be suffering from bladder problems"],
+        	"context_set":[""]
+
+        },
+
+	{
+        	"tag":"eating or weight problems",
+        	"patterns":["extreme thirst", "dehydration", "excessive hunger", "losing weight without trying", "binging, vomiting", "starvation", "preoccupation with food and weight", "distorted body image", "compulsive exercise", "abuse of laxatives or diet pills", "depression"],
+        	"responses":["you might be suffering from eating or weight problems"],
+        	"context_set":[""]
+
+        },
+        {
+        	"tag":"influenza",
+        	"patterns":["headache","pain in the head","cough","fever","snizing","runny nose","sore throat","pain in throat","itching throat"],
+        	"responses":["you might be suffering from influeza","you might be suffering from flu"],
+        	"context_set":[""]
+        },
+        {
+            "tag":"asthma",
+            "patterns":["shortness of breath","chest pain or tightness","cough","snizing"],
+            "responses":["you might be suffering from asthma"],
+            "context_set":[""]
+        },
+        {
+            "tag":"hepatitis_B",
+            "patterns":["abdominal pain","fever","dark urine","joint pain","loss of apetite","nausea and vomitting","weakness and fatigue","yellowing of skin","jaundice"],
+            "responses":["you might be suffering from hepatitis_B"],
+            "context_set":[""]
+        },
+        {
+            "tag":"Dengue",
+            "patterns":["headache","fever","muscle pain","joint pain","pain behind eyes","nausea and vomitting","rashes","minor bleeding from gums or nose "],
+            "responses":["you might be suffering from Dengue"],
+            "context_set":[""]
+        }
+		
+   ]
+}
